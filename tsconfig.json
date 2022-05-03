@@ -13,7 +13,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env","element-plus/global"
     ],
     "paths": {
       "@/*": [
@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/utils/appComponent.js"  ],
   "exclude": [
     "node_modules"
   ]
